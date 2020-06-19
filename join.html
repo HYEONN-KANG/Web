@@ -1,0 +1,24 @@
+<html>
+
+<head>
+<h1><p align='center'>
+  Create a New Account
+  </p></h1>
+  <style>
+  body{
+    background-image:url(background.jpg);
+    background-repeat: no-repeat;
+     background-size:cover;
+  }
+  </style>
+</head>
+
+<body>
+  <form name='fo' method='post'>
+    ID:<input id='userid' name='id' type='text' pattern='^(a-z0-9_]){6, 50}$' /><br />
+    PassWord:<input id='pwd' name='password' type='password' pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^*()_-+=[]{}~?:;`|/].{6,50}$)" /><br />
+    <input type='submit' value='submit' />
+  </form>
+</body>
+
+</html>
