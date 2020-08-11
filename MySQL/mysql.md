@@ -141,13 +141,8 @@ topic.id 라고 하면 topic table의 id라는 뜻이다.
 
 <h3>인터넷과 데이터베이스</h3>
 
-인터넷과 데이터베이스
-
 client → Internet → server
 client ← Internet ← server
 
-mysql은 서버와 클라이언트 둘다 설치
+mysql은 서버와 클라이언트 둘다 설치<br>
 mysql monitor(client)를 통해 명령어로 서버를 제어
-
-이해하는 것이 아닌 익숙해지는 것
-익숙해지는 방법이 이해와 암기
